@@ -86,7 +86,38 @@ body {
   color: #e5eff5;
 }
 
+.wrapper .box-second p {
+  margin-top: .5rem;
+  margin-bottom: 1.5rem;
+  font-size: .9rem;
+}
+
+.wrapper .box-second .box__button {
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+  padding: 1rem;
+  -webkit-box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.2);
+          box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.2);
+  background-color: #c0df34;
+  font-size: .9rem;
+  font-weight: 700;
+  color: white;
+}
+
 .wrapper .box-third {
   background-color: #2fc6c4;
+  padding-right: 9rem;
+}
+
+.wrapper .box-third h2 {
+  margin-bottom: 1.5rem;
+  color: white;
+}
+
+.wrapper .box-third p {
+  line-height: 1.4rem;
+  font-size: .9rem;
+  color: #e5eff5;
 }
 /*# sourceMappingURL=main.css.map */

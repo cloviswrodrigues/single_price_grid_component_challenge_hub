@@ -63,10 +63,40 @@
                 color: $color-light-gray;
             }
         }
+
+        p {
+            margin-top: .5rem;
+            margin-bottom: 1.5rem;
+            font-size: .9rem;
+        }
+
+        .box__button {
+            border: none;
+            border-radius: 5px;
+            width: 100%;
+            padding: 1rem;
+            box-shadow: 5px 10px 15px rgba(0,0,0,0.2);
+            background-color: $color-bright-yellow;
+            font-size: .9rem;
+            font-weight: 700;
+            color: $color-white;
+        }
     }
 
     .box-third {        
         background-color: lighten($color-cyan, 5);
+        padding-right: 9rem;
+
+        h2 {
+            margin-bottom: 1.5rem;
+            color: $color-white;
+        }
+
+        p {
+            line-height: 1.4rem;
+            font-size: .9rem;
+            color: $color-light-gray
+        }
     }
     
 }
