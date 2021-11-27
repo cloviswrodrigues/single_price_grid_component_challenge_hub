@@ -30,6 +30,11 @@
 
         @media screen and (min-width: $break-desktop) {            
             max-width: inherit;   
+            padding: 2rem 2rem;
+
+            &:nth-child(2) {
+                border-bottom-left-radius: 5px; 
+            }
         }   
     }
 
@@ -113,6 +118,10 @@
             font-size: .9rem;
             color: $color-light-gray
         }
+
+        @media screen and (min-width: $break-desktop) {   
+            padding-right: 5rem;
+        } 
     }
 
     @media screen and (min-width: $break-desktop) {   
@@ -123,6 +132,8 @@
         align-content: center;
         grid-template-areas: "box-primary box-primary"
                             "box-second  box-third";
+        grid-template-rows: 30% 35%;
+        grid-template-columns: 26% 26%;
     }    
 }
 
