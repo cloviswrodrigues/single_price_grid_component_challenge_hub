@@ -9,4 +9,4 @@ Projeto clone do desafio [FrontEnd Mentor](https://www.frontendmentor.io/challen
 
 # Tecnologias utilizadas
 * HTML
-* SCSs
+* SCSS
